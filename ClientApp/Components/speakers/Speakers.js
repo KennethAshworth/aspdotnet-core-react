@@ -18,8 +18,6 @@ class Speakers extends Component {
         };
     }
 
-
-
     componentDidMount() {
 
         this.props.speakersFetchData();
@@ -37,7 +35,6 @@ class Speakers extends Component {
         //         }
         //     });
     }
-
 
     render() {
 
@@ -74,7 +71,6 @@ class Speakers extends Component {
 Speakers.propTypes = {};
 Speakers.defaultProps = {};
 
-
 const mapStateToProps = (state) => {
 
     return {
@@ -85,12 +81,10 @@ const mapStateToProps = (state) => {
     };
 };
 
-
 //export default Speakers;
 
 export default connect(mapStateToProps,
     { speakersFetchData })(Speakers)
-
 
 // import React from 'react';
 // import SpeakersHeader from './SpeakersHeader';

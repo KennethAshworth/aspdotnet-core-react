@@ -18,8 +18,6 @@ class Routes extends Component {
         this.props.action();
     }
 
-
-
     render() {
         return (
             <div>
