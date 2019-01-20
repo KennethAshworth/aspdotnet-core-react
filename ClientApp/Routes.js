@@ -24,10 +24,10 @@ class Routes extends Component {
         return (
             <div>
                 <Switch>
-                    <Route exact path="/" component={Home}/>
+                    {/* <Route exact path="/" component={Home}/> */}
                     <Route exact path="/speakers" component={Speakers}/>
-                    <Route exact path="/login" component={Login}/>
-                    <Route render={() => <RouteNotFound/>}/>
+                    {/* <Route exact path="/login" component={Login}/> */}
+                    {/* <Route render={() => <RouteNotFound/>}/> */}
                 </Switch>
             </div>
         );
